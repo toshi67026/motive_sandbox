@@ -64,7 +64,7 @@ Visualization Manager:
       Shaft Length: 1
       Shaft Radius: 0.05000000074505806
       Shape: Arrow
-      Topic: /vrpn_client_node/test1/pose
+      Topic: /vrpn_client_node/test/pose
       Unreliable: false
       Value: false
     - Class: rviz/TF
@@ -72,7 +72,7 @@ Visualization Manager:
       Frame Timeout: 15
       Frames:
         All Enabled: true
-        test1:
+        test:
           Value: true
         world:
           Value: true
@@ -84,7 +84,7 @@ Visualization Manager:
       Show Names: true
       Tree:
         world:
-          test1:
+          test:
             {}
       Update Interval: 0
       Value: true

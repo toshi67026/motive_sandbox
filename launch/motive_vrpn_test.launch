@@ -1,0 +1,9 @@
+<launch>
+
+  <include file="$(find motive_sandbox)/launch/vrpn_client.launch">
+    <arg name="server" default="192.168.0.10"/>
+  </include>
+
+  <node pkg="rviz" type="rviz" name="rviz" args="-d $(find motive_sandbox)/config/test_display.rviz" required="true"/>
+
+</launch>
